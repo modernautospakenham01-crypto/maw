@@ -1,0 +1,802 @@
+/* Top Bar */
+.top-bar{
+    background:#243C94;
+    color:#fff;
+    padding:8px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:14px;
+    font-weight:600;
+}
+
+/* Main Header */
+.main-header{
+    background:#242424;
+    padding:18px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.main-header .menu{
+    display:flex;
+    gap:30px;
+}
+
+.main-header .menu a{
+    color:#fff;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:500;
+}
+
+.main-header .menu a:hover{
+    color:#f5b400;
+}
+
+.call-btn a{
+    background:#E8B000;
+    color:#fff;
+    padding:2px 55px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:400;
+    display:inline-block;
+}
+
+.call-btn a:hover{
+    background:#C89200;
+}
+
+@media(max-width:991px){
+    .top-bar,
+    .main-header{
+        padding:15px 20px;
+    }
+
+    .main-header .menu{
+        display:none;
+    }
+}
+.mobile-toggle{
+    display:none;
+    font-size:30px;
+    color:#fff;
+    cursor:pointer;
+}
+
+@media(max-width:991px){
+
+.menu{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    background:#242424;
+}
+
+.menu.active{
+    display:flex;
+}
+
+.mobile-toggle{
+    display:block;
+}
+
+}
+/* Desktop */
+.call-btn{
+    display:block;
+}
+
+/* Mobile */
+@media (max-width:991px){
+
+.call-btn{
+    display:none !important;
+}
+
+}
+/* Desktop */
+.mobile-call{
+    display:none;
+}
+
+/* Mobile */
+@media (max-width:991px){
+
+.call-btn{
+    display:none !important;
+}
+
+.mobile-call{
+    display:block;
+    background:#ff2b2b;
+    color:#fff !important;
+    text-align:center;
+    padding:14px;
+    margin:15px;
+    border-radius:6px;
+    font-weight:700;
+    text-decoration:none;
+}
+
+}
+
+
+/* body */
+
+.single-post .site-content {
+    padding-top: 20px;
+}
+
+.blog .site-content {
+    padding-top: 110px;
+}
+/* Top Bar */
+.top-bar{
+    background:#243C94;
+    color:#fff;
+    padding:8px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:14px;
+    font-weight:600;
+}
+
+/* Main Header */
+.main-header{
+    background:#242424;
+    padding:18px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.main-header .menu{
+    display:flex;
+    gap:30px;
+}
+
+.main-header .menu a{
+    color:#fff;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:500;
+}
+
+.main-header .menu a:hover{
+    color:#f5b400;
+}
+
+.call-btn a{
+    background:#E8B000;
+    color:#fff;
+    padding:2px 55px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:400;
+    display:inline-block;
+}
+
+.call-btn a:hover{
+    background:#C89200;
+}
+
+@media(max-width:991px){
+    .top-bar,
+    .main-header{
+        padding:15px 20px;
+    }
+
+    .main-header .menu{
+        display:none;
+    }
+}
+.mobile-toggle{
+    display:none;
+    font-size:30px;
+    color:#fff;
+    cursor:pointer;
+}
+
+@media(max-width:991px){
+
+.menu{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    background:#242424;
+}
+
+.menu.active{
+    display:flex;
+}
+
+.mobile-toggle{
+    display:block;
+}
+
+}
+/* Desktop */
+.call-btn{
+    display:block;
+}
+
+/* Mobile */
+@media (max-width:991px){
+
+.call-btn{
+    display:none !important;
+}
+
+}
+/* Desktop */
+.mobile-call{
+    display:none;
+}
+
+/* Mobile */
+@media (max-width:991px){
+
+.call-btn{
+    display:none !important;
+}
+
+.mobile-call{
+    display:block;
+    background:#ff2b2b;
+    color:#fff !important;
+    text-align:center;
+    padding:14px;
+    margin:15px;
+    border-radius:6px;
+    font-weight:700;
+    text-decoration:none;
+}
+
+}
+/* Now Wrecking Auto Parts*/
+/* ===========================
+   MAW DUAL BUTTONS
+=========================== */
+
+.maw-buttons{
+    width:100%;
+    max-width:1240px;
+    margin:0 auto;
+    padding:12px 1px;
+    display:flex;
+    gap:14px;
+    box-sizing:border-box;
+}
+
+.maw-button{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:54px;
+
+    background:#E8B000;
+    color:#fff !important;
+
+    text-decoration:none;
+    text-transform:uppercase;
+
+    font-family:Arial, sans-serif;
+    font-size:18px;
+    font-weight:700;
+	  
+    letter-spacing:.5px;
+
+    border-radius:4px;
+    transition:all .25s ease;
+}
+
+.maw-button:hover{
+    background:#C89200;
+    color:#ffffff !important;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .maw-buttons{
+        display:flex !important;
+        flex-direction:column !important;
+        gap:12px !important;
+        padding:12px !important;
+        width:100%;
+    }
+
+    .maw-button{
+        display:flex !important;
+        width:100% !important;
+        max-width:100% !important;
+
+        height:52px !important;
+
+        font-size:17px !important;
+        font-weight:400 !important;
+        color:#fff !important;
+        opacity:1 !important;
+
+        justify-content:center !important;
+        align-items:center !important;
+    }
+
+}
+/*Hero banner*/
+/*==========================
+ HERO SECTION
+===========================*/
+
+.maw-hero{
+
+    width:100%;
+    background:#fff;
+    padding:90px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.maw-hero-content{
+
+    max-width:1100px;
+    width:100%;
+    text-align:center;
+
+}
+
+.maw-hero h1{
+
+    font-size:40px;
+    font-weight:700;
+    line-height:1.1;
+    color:#111;
+    margin-bottom:30px;
+    font-family:Poppins,sans-serif;
+
+}
+
+.maw-hero p{
+
+    max-width:720px;
+    margin:0 auto 40px;
+    font-size:18px;
+    line-height:1.6;
+    color:#444;
+    font-family:Poppins,sans-serif;
+
+}
+
+
+
+
+
+/* video hero section */
+.video-hero{
+
+    width:100%;
+    background:#fff;
+    padding:2px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.video-wrapper{
+    position:relative;
+    width:100%;
+    max-width:1100px;
+    margin:40px auto;
+    overflow:hidden;
+    border-radius:12px;
+}
+
+.maw-video{
+    display:block;
+    width:100%;
+    height:560px;
+    object-fit:cover;
+}
+
+.video-play{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:110px;
+    height:110px;
+    padding:0;
+    border:none;
+    background:transparent;
+    cursor:pointer;
+    z-index:9999;
+}
+
+.video-play svg{
+    width:100%;
+    height:100%;
+    display:block;
+    transition:.3s;
+}
+
+.video-play:hover svg{
+    transform:scale(1.08);
+}
+
+.video-play.hide{
+    display:none;
+}
+
+@media(max-width:768px){
+
+.maw-video{
+    height:260px;
+}
+
+.video-play{
+    width:80px;
+    height:80px;
+}
+
+}
+/*==========================
+ BUTTONS
+===========================*/
+
+.maw-buttons{
+
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    margin-bottom:7px;
+    flex-wrap:wrap;
+
+}
+
+.maw-buttons a{
+
+    min-width:180px;
+    height:40px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-decoration:none;
+    font-size:18px;
+    font-weight:100;
+    border-radius:4px;
+    transition:.3s;
+
+}
+
+.btn-red{
+
+    background:#E8B000;
+    color:#fff;
+
+}
+
+.btn-red:hover{
+
+    background:#C89200;
+    color:#fff
+}
+
+.btn-white{
+
+    background:#fff;
+    color:#111;
+    border:2px solid #111;
+
+}
+
+.btn-white:hover{
+
+    background:#111;
+    color:#fff;
+
+}
+
+/*==========================
+ REVIEW IMAGES
+===========================*/
+
+.review-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:1px;              /* distance between two img */
+    margin-top:12px;
+    flex-wrap:wrap;
+}
+
+.review-card{
+    width:200px;
+    height:auto;
+    display:block;
+    border-radius:12px;
+    transition:.3s ease;
+}
+
+.review-card:hover{
+    transform:translateY(-2px);
+}
+
+/* Mobile */
+
+@media (max-width:767px){
+
+.review-wrapper{
+    gap:5px;
+}
+
+.review-card{
+    width:125px;
+}
+
+}
+
+/*==========================
+ MOBILE
+===========================*/
+
+@media(max-width:768px){
+
+.maw-hero{
+
+padding:60px 20px;
+
+}
+
+.maw-hero h1{
+
+font-size:38px;
+
+}
+
+.maw-hero p{
+
+font-size:18px;
+
+}
+
+.maw-buttons{
+
+flex-direction:column;
+
+}
+
+.maw-buttons a{
+
+width:100%;
+
+}
+
+}
+/*video Hero Scetion*/
+.maw-video{
+    width:100%;
+    max-width:900px;
+    height:520px;
+    margin:0 auto;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.maw-video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* ===========================
+   SERVICES SECTION
+=========================== */
+
+.maw-services{
+
+    background:#262626;
+    padding:90px 20px;
+
+}
+
+.maw-container{
+
+    max-width:1240px;
+    margin:auto;
+
+}
+
+.maw-subtitle{
+
+    display:block;
+    color:#E8B000;
+    font-size:18px;
+    text-align:center;
+    margin-bottom:12px;
+    font-weight:600;
+
+}
+
+.maw-services h2{
+
+    text-align:center;
+    color:#F2F2F2;
+    font-size:35px;
+    margin-bottom:20px;
+    font-weight:700;
+
+}
+
+.maw-description{
+
+    max-width:900px;
+    margin:0 auto 60px;
+    text-align:center;
+    color:#cfcfcf;
+    line-height:1.8;
+    font-size:18px;
+
+}
+
+/* Grid */
+
+.maw-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+
+}
+
+/* Card */
+
+.maw-card{
+
+    background:#333333;
+    border-radius:8px;
+    overflow:hidden;
+    transition:.35s;
+    padding:22px;
+
+}
+
+.maw-card:hover{
+
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+}
+
+.maw-card h3{
+
+    color:#D9D9D9;
+    font-size:20px;
+    margin-bottom:18px;
+
+}
+
+.maw-card img{
+
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:6px;
+    transition:.4s;
+
+}
+
+.maw-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.maw-card p{
+
+    color:#d9d9d9;
+    margin:20px 0;
+    line-height:1.7;
+    font-size:17px;
+
+}
+
+.maw-card a{
+
+    display:inline-block;
+    color:#fff;
+    background:#E8B000 ;
+    padding:12px 24px;
+    border-radius:4px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.maw-card a:hover{
+
+    background:#C89200;
+
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.maw-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.maw-services h2{
+
+font-size:38px;
+
+}
+
+.maw-description{
+
+font-size:18px;
+
+}
+
+.maw-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.maw-card img{
+
+height:240px;
+
+}
+
+}
+
+/* Premium Hover Effect */
+
+.service-card{
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+}
+
+.service-card:hover h3{
+    color:#ef2b2d;
+}
+
+.service-content a:hover{
+    letter-spacing:.5px;
+}
+
+
+/* Footer tel hover */
+.footer-call-btn:hover{
+    background:#C89200 !important;
+    color:#ffffff !important;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+}
